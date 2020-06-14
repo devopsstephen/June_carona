@@ -5,7 +5,7 @@ pipeline{
       jdk 'myjava'
 }
    stages{
-     stage('git_chechout'){
+     stage ('git_chechout'){
         steps{
             git 'https://github.com/devopsstephen/June_carona.git'
 
